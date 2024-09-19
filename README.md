@@ -15,6 +15,7 @@ This lab covers key concepts in secret-key encryption, such as AES encryption mo
    - **6.1. IV Experiment**: Exploring the necessity of unique IVs by encrypting the same plaintext with different IVs.
    - **6.2. Reusing the Same IV**: Demonstrating the weaknesses introduced by IV reuse in OFB and CFB modes.
    - **6.3. Predictable IV Attack**: Exploiting predictable IVs to reveal Bob’s secret message using AES-CBC encryption.
+7. **Programming to Find the Key used for encryption:** Find out the encryption key used in a message using a pre-defined dictionary.
 
 ## Setup and Environment
 The lab uses a Docker-based environment to simulate encryption oracles and execute chosen-plaintext attacks. The environment is easy to set up with the provided Docker commands.
