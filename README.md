@@ -19,8 +19,20 @@ This lab covers key concepts in secret-key encryption, such as AES encryption mo
 ## Setup and Environment
 The lab uses a Docker-based environment to simulate encryption oracles and execute chosen-plaintext attacks. The environment is easy to set up with the provided Docker commands.
 
-### Docker Commands
+Here’s the completed section with a bit more context:
+
+### Docker Commands for Task 6.3
 ```bash
+# Build the Docker containers as defined in docker-compose.yml
 $ docker-compose build
-$ docker-compose up
+
+# Start the containers in the background (detached mode)
+$ docker-compose up -d
+```
+
+# Make sure to stop and remove the containers after use:
+```bash
 $ docker-compose down
+```
+
+This setup ensures the environment is properly built, launched, and cleaned up afterward.
